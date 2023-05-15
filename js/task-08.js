@@ -1,7 +1,7 @@
 const form = document.querySelector(".login-form");
 
 form.addEventListener("submit", (event) => {
-  event.preventDefault(); // запобігаємо перезавантаженню сторінки
+  event.preventDefault();
 
   const email = form.elements.email.value;
   const password = form.elements.password.value;
